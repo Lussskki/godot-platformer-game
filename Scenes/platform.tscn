@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://h4mf5vrj78kg"]
+
+[ext_resource type="Texture2D" uid="uid://b0ea4p42dx4nn" path="res://sprites/platforms.png" id="1_1rc8e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n5262"]
+size = Vector2(32, 9)
+
+[sub_resource type="Animation" id="Animation_1rc8e"]
+resource_name = "move2"
+length = 5.0
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_n5262"]
+_data = {
+&"move2": SubResource("Animation_1rc8e")
+}
+
+[node name="Platform" type="AnimatableBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_1rc8e")
+region_enabled = true
+region_rect = Rect2(16, 48, 32, 9)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_n5262")
+one_way_collision = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_n5262")
+}
+autoplay = "move2"
