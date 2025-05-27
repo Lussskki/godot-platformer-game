@@ -19,4 +19,5 @@ Play as a broke but brave knight on a quest to collect coins scattered across da
 ![screenshot2](screenshots/screen2.png)
 
 ## 🚀 Game is on website, enjoy: [Itchio](https://lussskki.itch.io/pnight)
+## 🚀 Also is .exe executable for play, clone git and open Plat.exe
 
