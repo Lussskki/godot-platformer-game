@@ -18,5 +18,5 @@ Play as a broke but brave knight on a quest to collect coins scattered across da
 ![screenshot1](screenshots/screen1.png)  
 ![screenshot2](screenshots/screen2.png)
 
-## 🚀 Game is on website, enjoy. : [Itchio](https://lussskki.itch.io/pnight)
+## 🚀 Game is on website, enjoy: [Itchio](https://lussskki.itch.io/pnight)
 
